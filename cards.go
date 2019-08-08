@@ -40,18 +40,15 @@ func shuffleDeck(deck Deck) Deck {
 	return deck
 }
 
-// Return and remove one value of array of Cards
+// Return and remove last value of array of Cards
 func dealOne(deck Deck) Deck {
 
-	if len(deck) == 0 {
-		fmt.Println("No cards left to deal. Deck is empty!")
+	if len(deck) > 0 {
+		fmt.Println(deck[len(deck)])
+		deck = deck[:len(deck)-1]
 	}
 
-	fmt.Println(deck[0])
-
-	copy(deck[0:], deck[1:])
-	deck[len(deck)-1] = empty
-	deck = deck[:len(deck)-1]
+	fmt.Println("No cards left to deal. Deck is empty!")
 
 	return deck
 }
