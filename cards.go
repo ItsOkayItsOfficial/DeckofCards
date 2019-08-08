@@ -36,7 +36,7 @@ func buildDeck() (deck Deck) {
 }
 
 // Randomize array of Cards
-func shuffleDeck(deck Deck) Deck {
+func shuffle(deck Deck) Deck {
 
 	// "pseudo"-randomize order of elements
 	rand.Shuffle(len(deck), func(i, j int) {
@@ -47,7 +47,7 @@ func shuffleDeck(deck Deck) Deck {
 }
 
 // Return and remove last value of array of Cards
-func dealOne(deck Deck) Deck {
+func dealOneCard(deck Deck) Deck {
 
 	// Print Card and then remove
 	if len(deck) > 0 {
@@ -68,8 +68,8 @@ func main() {
 	deck := buildDeck()
 
 	// Shuffle deck of cards
-	shuffleDeck(deck)
+	shuffle(deck)
 
 	// Deal one card
-	dealOne(deck)
+	dealOneCard(deck)
 }
