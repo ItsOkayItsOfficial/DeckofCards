@@ -1,6 +1,6 @@
 # Deck of Cards Builder, Shuffler, and Dealer in GO
 [![Go Report Card](https://goreportcard.com/badge/github.com/ItsOkayItsOfficial/DeckofCards?style=flat-square)](https://goreportcard.com/report/github.com/ItsOkayItsOfficial/DeckofCards)
-[![Go Doc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://godoc.org/-/go)
+[![Go Doc](https://img.shields.io/badge/godoc-reference-blue.svg?style=flat-square)](https://godoc.org/math/rand)
 [![Release](https://img.shields.io/github/release/golang-standards/project-layout.svg?style=flat-square)](https://github.com/ItsOkayItsOfficial/DeckofCards/releases/latest)
 
 A `method` (`class` in Java) that represents a deck of poker-style playing cards providing three operations.
