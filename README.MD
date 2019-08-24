@@ -21,4 +21,3 @@ dealOneCard()
 - If the caller then makes a 53rd call dealOneCard(), no card is dealt, but rather a prompt returned.
 
 <br>
-Following the "Principle of Least Surprise" in making reasonable decisions regarding the implementation we're pretending that we have seen the Google light, with all base code being founded in Golang!
